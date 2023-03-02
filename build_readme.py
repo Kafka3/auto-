@@ -103,7 +103,8 @@ def fetch_releases(oauth_token):
 
 def fetch_weekly():
     return httpx.get(
-        "https://raw.githubusercontent.com/tw93/weekly/main/RECENT.md"
+        “https://raw.githubusercontent.com/Kafka3/Kafka3.github.io/main/README.md”
+#       "https://raw.githubusercontent.com/tw93/weekly/main/RECENT.md"
     )
 
 # def fetch_douban():
