@@ -177,7 +177,7 @@ if __name__ == "__main__":
     # rewritten = replace_chunk(rewritten, "douban", doubans_md)
 
     weekly_text = "\n"+fetch_weekly().text
-    rewritten = replace_chunk(rewritten, "weekly", weekly_text)
+    rewritten = replace_chunk(rewritten, "songe", weekly_text)
 
     entries = fetch_blog_entries()[:5]
     entries_md = "\n".join(
